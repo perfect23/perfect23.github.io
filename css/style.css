@@ -129,11 +129,11 @@ section{
     padding: 120px 15%;
 }
 .home{
+    
     height: 100vh;
     width: 100%;
-    background: url('../img/Portfol_bg.jpg');
-    background-size: cover;
-    background-position: center ;
+    background: url('../img/Portfol_bg.jpg') center center/cover no-repeat;
+    background-position-x: 95%;
     position: relative;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -443,6 +443,12 @@ form textarea{
 
 
 @media (max-width: 1270px){
+    .home{
+        background-position-x: 90%;
+    }
+    .home-text h1{
+        color: #585c63;
+    }
     header{
         padding: 18px 4%;
         transition: .2s;
@@ -466,7 +472,7 @@ form textarea{
 @media (max-width: 990px){
     .home{
         height: 85vh;
-        background-position: bottom right;
+        
     }
     .home-text h1{
     
