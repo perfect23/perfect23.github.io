@@ -466,6 +466,7 @@ form textarea{
 @media (max-width: 990px){
     .home{
         height: 85vh;
+        background-position: bottom right;
     }
     .home-text h1{
     
